@@ -20,13 +20,17 @@ cd ~/Documents/vagrant_projects/
 Clone the repo:
 
 ```
-git clone https://github.com/hogihung/vagrant_salt.git     (this is the master with local minon repo)
-git clone 
+git clone https://github.com/hogihung/vagrant_salt.git         (This is the master with local minon repo)
+git clone https://github.com/hogihung/vagrant_salt_minion.git  (Salt Minion only)
 ```
 
-Spin up your VM using Vagrant
+**ASSUMPTION:  You have already cloned and setup the parnter repo, vagrant_salt.git, which builds a Salt Master with local minion. If you have not already setup the Master, you are encouraged to do so now before continuing.**
+
+
+Spin up your Salt Minion VM using Vagrant
 
 ```
+cd vagrant_salt_minion
 vagrant up
 ```
 

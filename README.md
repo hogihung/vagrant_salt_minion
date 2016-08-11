@@ -24,7 +24,7 @@ git clone https://github.com/hogihung/vagrant_salt.git         (This is the mast
 git clone https://github.com/hogihung/vagrant_salt_minion.git  (Salt Minion only)
 ```
 
-**ASSUMPTION:  You have already cloned and setup the parnter repo, vagrant_salt.git, which builds a Salt Master with local minion. If you have not already setup the Master, you are encouraged to do so now before continuing.**
+**ASSUMPTION:  You have already cloned and setup the partner repo, vagrant_salt.git, which builds a Salt Master with local minion. If you have not already setup the Master, you are encouraged to do so now before continuing.**
 
 
 Spin up your Salt Minion VM using Vagrant
